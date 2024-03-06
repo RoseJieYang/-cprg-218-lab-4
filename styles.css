@@ -23,7 +23,7 @@ body
     padding-top:50px;
     text-align: center;
     color:white;
-    height:200px;
+    height:600px;
     background-size:cover;
     background-position:center;
     /* position: relative; */
@@ -40,6 +40,9 @@ body
     max-width:2000px;
     padding:20px;
     } 
+.remove-assignment-content-0{
+align-items: center;
+}
   
 .remove-assignment-content-1{
     max-width:2000px;
@@ -77,16 +80,25 @@ body
     color: white;
   }
   
-iframe {
+.youtube {
     border-radius: 20px;
     box-shadow:rgba(21, 13, 61, 0.15);
-    margin-top:30px;
+    margin-left: 20px;
+    max-width: 100%;
+    /* box-shadow: 10px 10px 10px indigo;
+    border-radius: 8%; */
+  }
+
+  .googleMap {
+    border-radius: 20px;
+    box-shadow:rgba(21, 13, 61, 0.15);
     margin-left: 20px;
     max-width: 100%;
     height: auto;
     /* box-shadow: 10px 10px 10px indigo;
     border-radius: 8%; */
   }
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -120,7 +132,7 @@ nav{
        letter-spacing: .1rem;
       /* padding: 1rem; */
       margin-right: 5px;
-      list-style-type:none;
+      /* list-style-type:none; */
    }
 
 nav ul{
@@ -208,4 +220,11 @@ footer p {
   text-align: center; /* Center align copyright text */
   margin-top: 20px; /* Add some margin above copyright text */
 }
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
