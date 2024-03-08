@@ -204,6 +204,7 @@ footer {
   display: flex; /* Make the footer container a flexbox */
   flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
   justify-content: space-between; /* Align items horizontally with space between */
+  color:white;
 }
 
 footer nav {
@@ -225,6 +226,11 @@ footer ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.Information{
+  flex: 1; /* Allow map to fill available space */
+  margin-left: 10px; 
+  color:white;
 }
 
 
